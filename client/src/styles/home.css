@@ -1,0 +1,132 @@
+
+/* 🌈 Background */
+body {
+    background: linear-gradient(135deg, #f8f9ff, #eef1ff);
+    min-height: 100vh;
+}
+/* 🎨 Color Variables */
+:root {
+    --primary: #ff4d6d;
+    --secondary: #6c63ff;
+    --bg-light: #f8f9ff;
+    --card-bg: #ffffff;
+    --text-dark: #222;
+    --text-light: #666;
+    --border: #eaeaea;
+}
+
+
+/* #region status */
+.status {
+    background-color: var(--bg-light);
+    padding: 20px 0;
+    color: var(--text-dark);
+}
+
+.status .statusBtn {
+    border-radius: 27px;
+    padding: 0 10px;
+    text-align: left;
+    margin: 0 5px;
+    margin-left: 3px;
+    font-size: 1.3rem;
+    color: var(--text-dark);
+}
+/* #endregion */
+
+
+/* #region Posts */
+.posts .card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+}
+/* #endregion */
+
+
+/* #region Post card's header */
+.posts .card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 25px;
+    color: var(--text-dark);
+}
+
+.posts .card_header .card_name {
+    transform: translateY(3px);
+}
+
+.posts .card_header .dropdown-menu {
+    position: absolute;
+    left: inherit !important;
+    right: 0;
+}
+
+.posts .card_header .dropdown-item {
+    display: flex;
+    margin: 5px 0;
+    color: var(--text-dark);
+}
+
+.posts .card_header .dropdown-item:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.posts .card_header #moreLink {
+    color: var(--secondary);
+}
+/* #endregion */
+
+
+/* #region Post card's body */
+.posts .card_body-content {
+    padding: 0 25px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: var(--text-dark);
+}
+
+.posts .card_body-content .readMore {
+    color: var(--primary);
+    cursor: pointer;
+}
+/* #endregion */
+
+
+/* 🔥 Image styling (already added earlier) */
+.posts .card img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* #endregion */
+
+
+/* #region Post card's footer */
+.posts .card_icon_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.posts .card_icon_menu i {
+    font-size: 28px;
+    margin: 10px;
+    color: var(--text-light);
+}
+
+.posts .card_icon_menu i:hover {
+    color: var(--primary);
+}
+
+.posts .card_icon_menu img {
+    width: 28px;
+    height: 28px;
+    transform: translate(5px, 10px);
+    opacity: 0.9;
+}
+/* #endregion */
