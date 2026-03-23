@@ -36,7 +36,7 @@ It allows users to connect, share posts, like, comment, and interact with each o
 * MongoDB (Mongoose)
 # Other Tools:
 
-* Cloudinary (Image Storage)
+
 * JWT (Authentication)
 * bcrypt (Password Hashing)
 
