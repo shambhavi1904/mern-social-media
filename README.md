@@ -41,15 +41,13 @@ It allows users to connect, share posts, like, comment, and interact with each o
 * bcrypt (Password Hashing)
 
 ---
- 📂 Project Structure
+ ## 📁 Project Structure
 
-
+```
 mern-social-media/
-│
 ├── client/              # React Frontend
 │   ├── src/
 │   └── public/
-│
 ├── controllers/         # Backend Controllers
 ├── models/              # Mongoose Schemas
 ├── routes/              # API Routes
@@ -57,6 +55,7 @@ mern-social-media/
 ├── server.js            # Entry point (Backend)
 ├── package.json
 └── .env                 # Environment Variables
+```
 
 
 ---
